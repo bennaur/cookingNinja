@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename={"cookingNinja"}>
 
         <Navbar gHQuery={getHomeQuery} />
         <Routes>
