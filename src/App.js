@@ -35,19 +35,18 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      
 
         <Navbar gHQuery={getHomeQuery} />
         <Routes>
 
-          <Route path="/cookingNinja" element={<Home data={data} loading={loading} error={error} />} />
+          <Route path='' element={<Home data={data} loading={loading} error={error} />} />
           <Route path="/recipe/:id" element={<DetailedRecipe />} />
 
         </Routes>
         <Footer/>
 
 
-      </BrowserRouter>
     </div>
   );
 }
