@@ -21,7 +21,7 @@ function App() {
     //homepage default results
 
     if (text === "") {
-      setUrl(`${endp}?q=random&app_id=${app_id}&app_key=${app_key}&random=true&from=0&to=15  `)
+      setUrl(`${endp}?q=random&app_id=${app_id}&app_key=${app_key}&random=true&from=0&to=15`)
       return;
     }
     
@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
 
         <Navbar gHQuery={getHomeQuery} />
         <Routes>
