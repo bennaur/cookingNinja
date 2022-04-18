@@ -1,0 +1,116 @@
+
+
+
+.detailedRecipe--grid{
+    width: 70%;
+    display: grid;
+    grid-template-columns: minmax(100px,500px ) minmax(350px, 2fr);
+    grid-template-rows: repeat(4, auto);
+    margin: 12.2rem auto 5rem 10rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 8px 10px 10px 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.detailedRecipe--image-cont{
+    grid-column: 2/2;
+    grid-row: 1/-1;
+    object-fit:cover;
+    max-width: 100%;
+    height: 100%;
+}
+.detailedRecipe--image-cont img{
+    display: block;
+    object-fit:cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.detailedRecipe--ingredients-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(fit-content, auto);
+    gap: 4px 12px;
+    
+}
+
+.detailedRecipe--ingredients-grid li{
+   font-size: 0.8rem;
+   list-style-position: inside;
+}
+
+
+
+
+.drflex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.react-icons{
+    margin-left: 8px
+
+}
+
+.inicons{
+    padding: 6%;
+}
+
+h3.inicons {
+    font-size: 1.7rem;
+    line-height: 1.4;
+    letter-spacing: 1.5px;
+    
+}
+
+.health-labels span {
+    font-size: 0.7rem;
+    display: inline-block;
+    margin-right: 14px;
+    background-color: #d8c7ff;
+    color: hsl(233, 26%, 24%);
+    border-radius: 4px;
+    padding: 2px 8px;
+
+}
+
+
+@media screen and (max-width: 1000px){
+    .detailedRecipe--grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(200px, 50vw) repeat(4, auto);
+        /* grid-template-rows: auto; */
+        margin: 12rem auto;
+    }
+
+    .detailedRecipe--image-cont{
+        grid-column: 1/2;
+        grid-row: 1/1;
+    }
+    
+
+    .detailedRecipe--grid h3{
+        grid-row: 2/3 ;
+        font-size: calc(1rem + 1vw);
+    }
+    
+    .detailedRecipe--calories{
+        grid-row: 3/4;
+        font-size: calc(1rem + 1vw);
+    }
+    
+    .detailedRecipe--ingredients{
+        grid-row: 4/5;
+        font-size: calc(1rem + 1vw);
+    }
+
+}
+
+

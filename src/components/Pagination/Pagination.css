@@ -1,0 +1,47 @@
+.pagination{
+    width: fit-content; 
+    /* position: relative; */
+    margin: 0 auto 22px;
+    padding: 1.2%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    
+}
+
+
+.pagination ul{
+    width: fit-content;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+.pagination li{
+    padding: 0 15px;
+    color: var(--violet);
+
+
+}
+
+.pagination a {
+    cursor: pointer;
+}
+
+.active {
+    background-color: #7830AD;
+    color: #fff !important;
+    border-radius: 6px;
+  }
+
+
+  .pagination--container .baseline{
+    border: 0.1px solid black;
+  }
+
+
+  @media screen and (max-width: 500px){
+    .pagination{
+        font-size: 5vw;
+    }
+}

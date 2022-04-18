@@ -1,0 +1,27 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+html,body  {
+ min-height: 100%;
+ font-size: 18px;
+ font-family: Raleway, sans-serif;  
+}
+
+.link--router{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+
+
+
+
+:root{
+  --violet: #58249c;
+}
+
+
