@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cookingNinja/static/css/main.612b8874.css",
+    "main.js": "/cookingNinja/static/js/main.b1f50508.js",
+    "static/js/787.28a10136.chunk.js": "/cookingNinja/static/js/787.28a10136.chunk.js",
+    "index.html": "/cookingNinja/index.html",
+    "main.612b8874.css.map": "/cookingNinja/static/css/main.612b8874.css.map",
+    "main.b1f50508.js.map": "/cookingNinja/static/js/main.b1f50508.js.map",
+    "787.28a10136.chunk.js.map": "/cookingNinja/static/js/787.28a10136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.612b8874.css",
+    "static/js/main.b1f50508.js"
+  ]
+}
