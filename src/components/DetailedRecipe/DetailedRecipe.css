@@ -1,5 +1,7 @@
 
-
+.detailedRecipe{
+    min-height: calc(100vh - 200px);
+}
 
 .detailedRecipe--grid{
     width: 70%;
