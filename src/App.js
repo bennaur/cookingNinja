@@ -40,7 +40,7 @@ function App() {
         <Navbar gHQuery={getHomeQuery} />
         <Routes>
 
-          <Route path="/" element={<Home data={data} loading={loading} error={error} />} />
+          <Route path="/cookingNinja" element={<Home data={data} loading={loading} error={error} />} />
           <Route path="/recipe/:id" element={<DetailedRecipe />} />
 
         </Routes>
