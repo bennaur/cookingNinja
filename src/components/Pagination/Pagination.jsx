@@ -32,7 +32,7 @@ const Pagination = ({ pages, paginate, cp }) => {
                     </ul>
                 </div>
             </div>
-            <div className='baseline'></div>
+            
         </div>
     )
 }
