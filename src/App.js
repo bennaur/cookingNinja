@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={"cookingNinja"}>
+      <BrowserRouter>
 
         <Navbar gHQuery={getHomeQuery} />
         <Routes>
